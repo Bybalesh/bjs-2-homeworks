@@ -36,7 +36,7 @@ function summElementsWorker(...arr) {
 	for (let i = 0; i < arr.length; i++) {
 		sum += arr[i];
 	}
-	return  sum;
+	return sum;
 }
 const result2 = summElementsWorker(0, 0, 0, -1, -100);
 console.log(result2);
@@ -100,5 +100,10 @@ function makeWork(arrOfArr, func) {
 	}
 	return maxWorkerResult;
 }
-const result7 = makeWork ([[10, 10, 11, 20, 10], [67, 10, 2, 39, 88], [72, 75, 51, 87, 43], [30, 41, 55, 96, 62]]);
+const result7 = makeWork([
+	[10, 10, 11, 20, 10],
+	[67, 10, 2, 39, 88],
+	[72, 75, 51, 87, 43],
+	[30, 41, 55, 96, 62]
+]);
 console.log(result7);
