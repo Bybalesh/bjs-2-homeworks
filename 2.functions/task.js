@@ -1,9 +1,9 @@
-function getArrayParams(...arr) {
+function getArrayParams(...arr) { //spread-оператор
 	if (arr.length === 0) {
 		return 0;
 	}
-	let min = arr[0];
-	let max = arr[0];
+	let min = arr[0]; //Infinity
+	let max = arr[0];//-Infinity
 	let sum = 0;
 
 	for (let i = 0; i < arr.length; i++) {
